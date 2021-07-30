@@ -1,0 +1,25 @@
+name: jupyterhub-rtc
+channels:
+  - conda-forge
+dependencies:
+  - alembic
+  - async_generator
+  - certipy
+  - configurable-http-proxy=4
+  - entrypoints
+  - jinja2
+  - jupyter_telemetry
+  - jupyterlab=3.1
+  - nodejs=14
+  - oauthlib
+  - pamela
+  - pip
+  - prometheus_client
+  - psutil
+  - pycurl
+  - python=3.9
+  - python-dateutil
+  - requests
+  - sqlalchemy
+  - tornado=6
+  - traitlets=5
