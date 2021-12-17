@@ -62,4 +62,4 @@ This uses JupyterHub's new [*Role Base Access Control (RBAC)*](https://jupyterhu
 RBAC allows very fine-grained control of permissions in JupyterHub.
 In this example users who are part of a group `rtc` are given the `access:servers` permission, which allows them to access the servers of any other user in the `rtc` group.
 
-See `c.JupyterHub.load_roles` in [`jupyterhub_config.py`](./jupyterhub_config.py).
+See `c.JupyterHub.load_roles` in [`jupyterhub_config.py`](./jupyterhub_config.py#L20).
